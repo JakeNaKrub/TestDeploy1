@@ -6,14 +6,15 @@ import streamlit as st
 import Page2
 import Page1
 import Page3
+import Page4
 
 #Path Set
 #img = Image.open("D:\\Work\\000003.jpg")
 ###################PORTZONE
 PAGES = {
-    "A": Page1,
-    "B": Page2,
-    "VC": Page3,
+    "ข้อมูลส่วนบุคคล": Page1,
+    "ประวัติการศึกษา": Page2,
+    "ตัวอย่างผลงาน": Page3,
 
     
 }
