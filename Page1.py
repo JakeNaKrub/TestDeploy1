@@ -5,9 +5,11 @@ from PIL import Image
 def loadpic(path):
     img = Image.open(path)
     return img
-def app():
+def rt():
     if st.button("Clickเพื่อไปยัง ตัวอย่างAPI"):
         return True
+def app():
+    rt()
     st.title("Akeprapu's Portfolio")
     st.text("Created 08/09/2021 17:16 Made With Streamlit")
     img = loadpic("./000003.jpg")
