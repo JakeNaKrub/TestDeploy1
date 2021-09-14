@@ -29,10 +29,6 @@ selection = x.radio("",menu_list,0)
 st.sidebar.warning("อาจโหลดช้าเพราะไฟล์ภาพใหญ่จ้า")
 page = PAGES[selection]
 
-if page.app():
- selection = x.radio("",menu_list,3)
- page = PAGES["ตัวอย่างAPI"]
- page.app()
-
+ 
 
  
