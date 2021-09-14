@@ -23,14 +23,14 @@ PAGES = {
 st.sidebar.title('Menu')
 menu_list = list(PAGES.keys())
 x = st.sidebar.empty()
-_ = x.radio("",menu_list,0)
+selection = x.radio("",menu_list,0)
 
 #selection = x.radio("",menu_list )
 st.sidebar.warning("อาจโหลดช้าเพราะไฟล์ภาพใหญ่จ้า")
 page = PAGES[selection]
 
 if page.app():
- _ = x.radio("",menu_list,3)
+ selection = x.radio("",menu_list,3)
  
 
 
