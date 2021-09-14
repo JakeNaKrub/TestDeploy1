@@ -11,7 +11,7 @@ import BETA
  #Path Set
 #img = Image.open("D:\\Work\\000003.jpg")
 ###################PORTZONE
-def app():
+
  PAGES = {
      "ข้อมูลส่วนบุคคล": Page1,
      "ประวัติการศึกษา": Page2,
@@ -32,5 +32,4 @@ def app():
 
  page.app()
 
- app()
  
