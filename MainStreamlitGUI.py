@@ -12,7 +12,7 @@ import BETA
 #img = Image.open("D:\\Work\\000003.jpg")
 ###################PORTZONE
 
- PAGES = {
+PAGES = {
      "ข้อมูลส่วนบุคคล": Page1,
      "ประวัติการศึกษา": Page2,
      "ตัวอย่างผลงาน": Page3,
