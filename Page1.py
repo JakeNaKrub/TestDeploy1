@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-@st.cache(suppress_st_warning=True)
+@st.cache(suppress_st_warning=True,allow_output_mutation=True)
 def loadpic(path):
     img = Image.open(path)
     return img
