@@ -1,4 +1,5 @@
 import streamlit as st
+import BETA
 from PIL import Image
 @st.cache(suppress_st_warning=True,allow_output_mutation=True)
 def loadpic(path):
@@ -8,7 +9,7 @@ def loadpic(path):
 def app():
     a = st.button('Click Here To Go To ตัวอย่างAPI')
     if a:
-        page = PAGES["ตัวอย่างAPI"]
+        BETA.app()
         
     st.title("Akeprapu's Portfolio")
     st.text("Created 08/09/2021 17:16 Made With Streamlit")
