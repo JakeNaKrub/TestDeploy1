@@ -6,7 +6,7 @@ import streamlit as st
 import Page2
 import Page1
 import Page3
- 
+import BETA
  
  #Path Set
 #img = Image.open("D:\\Work\\000003.jpg")
@@ -15,6 +15,7 @@ PAGES = {
     "ข้อมูลส่วนบุคคล": Page1,
     "ประวัติการศึกษา": Page2,
     "ตัวอย่างผลงาน": Page3,
+    "ตัวอย่างAPI":BETA
 
 
 }
