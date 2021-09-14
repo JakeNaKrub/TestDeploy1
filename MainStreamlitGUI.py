@@ -11,7 +11,7 @@ import BETA
  #Path Set
 #img = Image.open("D:\\Work\\000003.jpg")
 ###################PORTZONE
-returned = 0
+returned = 1
 PAGES = {
      "ข้อมูลส่วนบุคคล": Page1,
      "ประวัติการศึกษา": Page2,
@@ -29,8 +29,7 @@ st.sidebar.warning("อาจโหลดช้าเพราะไฟล์ภ
 page = PAGES[selection]
 
 
-
-returned = page.app()
+ 
 
 
  
