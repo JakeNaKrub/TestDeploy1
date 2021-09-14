@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+@st.cache
 def app():
     img = Image.open("./000003.JPG")
     st.title("Akeprapu's Portfolio")
