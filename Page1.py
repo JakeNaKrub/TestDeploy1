@@ -8,7 +8,9 @@ def loadpic(path):
  
     
 def app():
-    if st.button("Clickเพื่อไปยัง ตัวอย่างAPI"):
+    a = st.empty()
+    if a.button("Clickเพื่อไปยัง ตัวอย่างAPI"):
+        a.write("")
         return True
     st.title("Akeprapu's Portfolio")
     st.text("Created 08/09/2021 17:16 Made With Streamlit")
