@@ -11,25 +11,26 @@ import BETA
  #Path Set
 #img = Image.open("D:\\Work\\000003.jpg")
 ###################PORTZONE
-PAGES = {
-    "ข้อมูลส่วนบุคคล": Page1,
-    "ประวัติการศึกษา": Page2,
-    "ตัวอย่างผลงาน": Page3,
-    "ตัวอย่างAPI":BETA
+def app():
+ PAGES = {
+     "ข้อมูลส่วนบุคคล": Page1,
+     "ประวัติการศึกษา": Page2,
+     "ตัวอย่างผลงาน": Page3,
+     "ตัวอย่างAPI":BETA
 
 
-}
-st.sidebar.title('Menu')
-menu_list = list(PAGES.keys())
+ }
+ st.sidebar.title('Menu')
+ menu_list = list(PAGES.keys())
 
- 
-selection = st.sidebar.radio("",menu_list)
-st.sidebar.warning("อาจโหลดช้าเพราะไฟล์ภาพใหญ่จ้า")
-page = PAGES[selection]
 
- 
- 
-page.app()
- 
- 
+ selection = st.sidebar.radio("",menu_list)
+ st.sidebar.warning("อาจโหลดช้าเพราะไฟล์ภาพใหญ่จ้า")
+ page = PAGES[selection]
+
+
+
+ page.app()
+
+ app()
  
