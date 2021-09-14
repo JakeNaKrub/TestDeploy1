@@ -31,7 +31,7 @@ page = PAGES[selection]
 
 if page.app():
  selection = x.radio("",menu_list,3)
- page = PAGES[""]
+ page = PAGES["ตัวอย่างAPI"]
  
 
 
