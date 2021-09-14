@@ -8,7 +8,7 @@ def loadpic(path):
  
     
 def app():
-
+    st.warning("เข้าด้วยมือถืออาจกดเมนูsidebarยากนิดนึง
     st.title("Akeprapu's Portfolio")
     st.text("Created 08/09/2021 17:16 Made With Streamlit")
     img = loadpic("./000003.jpg")
