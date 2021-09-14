@@ -10,6 +10,7 @@ def app():
     a = st.button('Click Here To Go To ตัวอย่างAPI')
     if a:
         BETA.app()
+        return 3
         
     st.title("Akeprapu's Portfolio")
     st.text("Created 08/09/2021 17:16 Made With Streamlit")
