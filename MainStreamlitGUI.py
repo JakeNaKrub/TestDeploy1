@@ -26,9 +26,7 @@ selection = st.sidebar.radio("",menu_list)
 st.sidebar.warning("อาจโหลดช้าเพราะไฟล์ภาพใหญ่จ้า")
 page = PAGES[selection]
 st.sidebar.title('Menu')
-a = st.button("ตัวอย่างAPI")
-if a: 
- page = PAGES['ตัวอย่างAPI']
+ 
  
 page.app()
  
