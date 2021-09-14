@@ -5,7 +5,7 @@ def app():
     st.header("ตัวอย่างผลงาน")
     clicked = st.button("Click Me!")
     if clicked:
-        st.info("สร้างโดยเอกปาพู")
+        st.sucess("สร้างโดยเอกปาพู")
         #st.balloons()
         with st.expander("Source Code!"):
             st.write("Source Code")
