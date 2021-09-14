@@ -7,7 +7,7 @@ import Page2
 import Page1
 import Page3
  
-def main():
+ 
  #Path Set
  #img = Image.open("D:\\Work\\000003.jpg")
  ###################PORTZONE
@@ -26,7 +26,6 @@ def main():
 
  page = PAGES[selection]
  page.app()
-
- main()
+ 
  
  
