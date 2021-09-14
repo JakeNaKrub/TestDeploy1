@@ -4,7 +4,7 @@ from PIL import Image
 def loadpic(path):
     img = Image.open(path)
     return img
-@st.cache(suppress_st_warning=True,allow_output_mutation=True)
+ 
 def app():
     
     st.title("Akeprapu's Portfolio")
