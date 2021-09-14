@@ -25,7 +25,7 @@ menu_list = list(PAGES.keys())
 x = st.sidebar.empty()
 _ = x.radio("",menu_list,0)
 
-selection = st.sidebar.radio("",menu_list )
+#selection = x.radio("",menu_list )
 st.sidebar.warning("อาจโหลดช้าเพราะไฟล์ภาพใหญ่จ้า")
 page = PAGES[selection]
 
