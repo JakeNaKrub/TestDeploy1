@@ -28,7 +28,7 @@ selection = x.radio("",menu_list,0)
 #selection = x.radio("",menu_list )
 st.sidebar.warning("อาจโหลดช้าเพราะไฟล์ภาพใหญ่จ้า")
 page = PAGES[selection]
-
+page.app()
  
 
  
