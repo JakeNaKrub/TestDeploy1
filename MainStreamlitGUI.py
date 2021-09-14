@@ -22,7 +22,7 @@ PAGES = {
 }
 st.sidebar.title('Menu')
 menu_list = list(PAGES.keys())
-x = sidebar.empty()
+x = st.sidebar.empty()
 _ = x.radio("",menu_list,0)
 
 selection = st.sidebar.radio("",menu_list )
