@@ -9,23 +9,23 @@ import Page3
  
  
  #Path Set
- #img = Image.open("D:\\Work\\000003.jpg")
- ###################PORTZONE
- PAGES = {
-     "ข้อมูลส่วนบุคคล": Page1,
-     "ประวัติการศึกษา": Page2,
-     "ตัวอย่างผลงาน": Page3,
+#img = Image.open("D:\\Work\\000003.jpg")
+###################PORTZONE
+PAGES = {
+    "ข้อมูลส่วนบุคคล": Page1,
+    "ประวัติการศึกษา": Page2,
+    "ตัวอย่างผลงาน": Page3,
 
 
- }
- menu_list = list(PAGES.keys())
+}
+menu_list = list(PAGES.keys())
 
- st.sidebar.title('Menu')
+st.sidebar.title('Menu')
 
- selection = st.sidebar.radio("",menu_list)
+selection = st.sidebar.radio("",menu_list)
 
- page = PAGES[selection]
- page.app()
+page = PAGES[selection]
+page.app()
  
  
  
