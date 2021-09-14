@@ -11,7 +11,7 @@ import BETA
  #Path Set
 #img = Image.open("D:\\Work\\000003.jpg")
 ###################PORTZONE
-returned = 0
+ 
 PAGES = {
      "ข้อมูลส่วนบุคคล": Page1,
      "ประวัติการศึกษา": Page2,
@@ -24,7 +24,7 @@ st.sidebar.title('Menu')
 menu_list = list(PAGES.keys())
 
 
-selection = st.sidebar.radio("",menu_list,index=returned)
+selection = st.sidebar.radio("",menu_list )
 st.sidebar.warning("อาจโหลดช้าเพราะไฟล์ภาพใหญ่จ้า")
 page = PAGES[selection]
 
