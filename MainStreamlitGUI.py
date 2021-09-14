@@ -6,7 +6,7 @@ import streamlit as st
 import Page2
 import Page1
 import Page3
- 
+@st.cache 
 
 #Path Set
 #img = Image.open("D:\\Work\\000003.jpg")
