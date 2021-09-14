@@ -9,7 +9,7 @@ def app():
     
     st.title("Akeprapu's Portfolio")
     st.text("Created 08/09/2021 17:16 Made With Streamlit")
-    img = loadpic("./000003.JPG")
+    img = loadpic("./000003.jpg")
     st.image(img,caption="Akeprapu M4")
 
 
